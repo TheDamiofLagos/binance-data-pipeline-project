@@ -36,3 +36,6 @@ cur = conn.cursor()
 client = Client(API_KEY, API_SECRET)
 
 prices = client.get_all_tickers()
+
+
+print(prices)
